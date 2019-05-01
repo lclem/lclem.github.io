@@ -1,0 +1,20 @@
+
+Towards Regular Separability of Petri net languages
+
+The regular separability problem asks, for two given input languages, whether there exists a regular language including one of them but disjoint from the other. A major open problem in the area is regular separability of Petri net languages (acceptance by final configuration). We report recent progress on this problem. First, we perhaps surprisingly show that under very mild assumptions (satisfied by Petri nets) regular separability is oblivious to nondeterminism, in the sense that the nondeterministic variant reduces to the deterministic one. On the negative side, we show undecidability already for visibly one-counter automata (with zero test). On the positive side, we show decidability for integer Petri net languages (in the form of Parikh automata) and for Petri net languages in dimension one. Finally, regular separability always holds when acceptance is by control location, and thus the problem trivialises in this case. Deciding regular separability for the full class of Petri net languages remains a challenging open problem.
+
+----- other stuff
+
+The regularity problem asks whether a given input language is regular.
+
+The regular separability problem,
+which asks, for two given input languages,
+whether there exists a regular language including one of them but disjoint from the other.
+These two problems are intimately connected:
+For language classes closed under complement, regularity reduces to regular separability.
+
+However, while the regularity problem is very sensitive to nondeterminism,
+regular separability is oblivious to it.
+In fact, for regularity problem is 
+undecidable already for
+undecidable for one-counter nets 

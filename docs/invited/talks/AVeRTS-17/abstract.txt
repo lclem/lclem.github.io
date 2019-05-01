@@ -1,0 +1,9 @@
+
+Modelling time and recursion
+
+Timed automata are a classical formalism used to model time in finite state systems.
+The classical view on timed automata uses *clocks* recording differences between the timestamps of events.
+Another view is to use *registers* recording the timestamps themselves.
+While these two views are essentially equivalent for finite state systems,
+we argue that in the presence of recursion the register approach yields a more expressive and natural model,
+and that this model is still analysable algorithmically.
